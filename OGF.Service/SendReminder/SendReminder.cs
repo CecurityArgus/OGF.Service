@@ -70,6 +70,8 @@ namespace OGF.Service
                                 query.IndexFilters.Add(new IndexFilter { Name = "Trademark", Filter = "" });                    //9
                                 query.IndexFilters.Add(new IndexFilter { Name = "DocID", Filter = "" });                        //10 
                                 query.IndexFilters.Add(new IndexFilter { Name = "DocType", Filter = "" });                      //11
+                                query.IndexFilters.Add(new IndexFilter { Name = "AddLogo", Filter = "" });                      //12
+                                query.IndexFilters.Add(new IndexFilter { Name = "DocNbr", Filter = "" });                       //13
 
                                 var records = domainQuery.DocumentTypes[_config.DocumenttypeName].Query.ExecuteQuery(query).ToList();
 
@@ -84,6 +86,8 @@ namespace OGF.Service
                                     string docID = records[0].Values[10];
                                     string docType = records[0].Values[11];
                                     string tradeMark = records[0].Values[9];
+                                    bool addLogo = Convert.ToBoolean(records[0].Values[12]);
+                                    string docNbr = records[0].Values[13];
 
                                     logger.Trace("Send reminder - CustomerEmailAdress: " + customerEmailAdress);
                                     logger.Trace("Send reminder - BackofficeEmailAdress: " + backofficeEmailAdress);
@@ -116,16 +120,20 @@ namespace OGF.Service
                                                     logger.Trace("Send reminder - Send mail");
                                                     ARGUS.Diagnostics.Logger.Log("Send mail}");
 
+                                                    string logoFile = "";
                                                     List<string> attachments = null;
-                                                    if (!string.IsNullOrEmpty(tradeConfig.CancellationDocument) &&
-                                                        string.Compare(docType, "COMMANDE", true) == 0)
-                                                    {
-                                                        attachments = new List<string>();
-                                                        attachments.Add(tradeConfig.CancellationDocument);
-                                                    }
+                                                    //if (!string.IsNullOrEmpty(tradeConfig.CancellationDocument) &&
+                                                    //    string.Compare(docType, "COMMANDE", true) == 0)
+                                                    //{
+                                                    //    attachments = new List<string>();
+                                                    //    attachments.Add(tradeConfig.CancellationDocument);
+                                                    //}
+                                                    
+                                                    if (addLogo)
+                                                        logoFile = tradeConfig.Logo;
 
                                                     SendMail(_config.SMTP, mailTemplateRequest, customerEmailAdress.Split(';').ToList(), null, backofficeEmailAdress.Split(';').ToList(),
-                                                            civility, firstName, lastName, univerSignURL, attachments, tradeConfig.Logo, tradeMark, docType + "_" + docID);
+                                                            civility, firstName, lastName, univerSignURL, attachments, logoFile, tradeMark, docNbr, _config.Footer);
 
                                                     Common.UniqueIds.Add(uniqueId);
                                                 }
@@ -193,7 +201,7 @@ namespace OGF.Service
                                     List<string> to, List<string> cc, List<string> bcc,
                                     string civility, string firstName,
                                     string lastName, string univerSignUrl, List<string> attachments,
-                                    string logo, string tradeMark, string documentName)
+                                    string logo, string tradeMark, string documentName, string footer)
         {
             try
             {
@@ -231,10 +239,12 @@ namespace OGF.Service
                     mail.CC = cc;
                 if (bcc != null && bcc.Count > 0)
                     mail.BCC = bcc;
-                mail.Subject = mailTemplate.Subject.Replace("{{Trademark}}", HttpUtility.HtmlEncode(tradeMark));
+                mail.Subject = mailTemplate.Subject.Replace("{{Trademark}}", tradeMark);
                 mail.BodyHtml = htmlBody;
                 mail.BodyPlainText = plainTextBody;
                 mail.Logo = logo;
+                mail.Footer = footer;
+
                 if (attachments != null && attachments.Count > 0)
                     mail.Attachments = attachments;
 

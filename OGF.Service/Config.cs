@@ -15,6 +15,7 @@ namespace OGF.Service
         public string DocumenttypeName { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
+        public string Footer { get; set; }
         public SMTP SMTP { get; set; }
         public List<TradeMarkConfig> TradeMarkConfigs { get; set; }
     }

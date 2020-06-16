@@ -1,0 +1,19 @@
+2020-05-18 15:13:10.5266|TRACE|Recette|Starting Recette - OGF server
+2020-05-18 15:13:10.9580|TRACE|Recette|Starting sendreminder thread... 
+2020-05-18 15:13:10.9842|TRACE|Recette|Starting canceltransaction thread...
+2020-05-18 15:13:11.3683|TRACE|Recette|Send reminder - Start
+2020-05-18 15:13:11.3790|TRACE|Recette|Send reminder - UniqueId : cec03e47-13e5-4379-980f-bb7236fd9bff
+2020-05-18 15:13:16.5274|TRACE|Recette|Send reminder - CustomerEmailAdress: Frank.d@argus-dms.com
+2020-05-18 15:13:16.5328|TRACE|Recette|Send reminder - BackofficeEmailAdress: 
+2020-05-18 15:13:17.1888|TRACE|Recette|Send reminder - Send mail
+2020-05-18 15:13:17.5684|TRACE|Recette|Send reminder - Update SendReminderState to Finished
+2020-05-18 15:13:17.5844|TRACE|Recette|Send reminder - End
+2020-05-18 15:13:17.5844|TRACE|Recette|Send reminder - Start
+2020-05-18 15:13:17.5971|TRACE|Recette|Send reminder - UniqueId : 62e93be8-e670-4c76-bd07-79db6f567868
+2020-05-18 15:13:17.7258|TRACE|Recette|Send reminder - CustomerEmailAdress: Frank.descheerder@gmail.com
+2020-05-18 15:13:17.7258|TRACE|Recette|Send reminder - BackofficeEmailAdress: 
+2020-05-18 15:13:18.1903|TRACE|Recette|Send reminder - Update SendReminderState to Finished
+2020-05-18 15:13:18.1903|TRACE|Recette|Send reminder - End
+2020-05-18 16:24:57.1704|TRACE|Recette|Starting Recette - OGF server
+2020-05-18 16:24:57.3639|TRACE|Recette|Starting sendreminder thread... 
+2020-05-18 16:24:57.7571|TRACE|Recette|Starting canceltransaction thread...

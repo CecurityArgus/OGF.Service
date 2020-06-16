@@ -26,7 +26,7 @@ namespace OGF.Service
         private string _user;
         private string _password;
         private string _logo;
-
+        private string _footer;
         public Mail()
         {
             _to = null;
@@ -41,7 +41,7 @@ namespace OGF.Service
             _host = "";
             _ssl = false;
             _logo = "";
-
+            _footer = "";
         }
 
         public string Logo
@@ -55,7 +55,19 @@ namespace OGF.Service
                 _logo = value;
             }
         }
-        
+
+        public string Footer
+        {
+            get
+            {
+                return _footer;
+            }
+            set
+            {
+                _footer = value;
+            }
+        }
+
         public List<string> Attachments
         {
             set
@@ -219,10 +231,19 @@ namespace OGF.Service
                     mailMessage.From = new MailAddress(_from);
                 else
                     mailMessage.From = new MailAddress(_from, _fromDisplay);
-                           
-
+                
                 //Subject 
                 mailMessage.Subject = _subject;
+
+                if (!string.IsNullOrEmpty(_logo))
+                    _bodyHtml = _bodyHtml.Replace("{{Logo}}", "<img id = \"1\" src = \"cid:mylogo\"/>");
+                else
+                    _bodyHtml = _bodyHtml.Replace("{{Logo}}", "");
+
+                if (!string.IsNullOrEmpty(_footer))
+                    _bodyHtml = _bodyHtml.Replace("{{Footer}}", "<img id = \"2\" src = \"cid:myfooter\"/>");
+                else
+                    _bodyHtml = _bodyHtml.Replace("{{Footer}}", "");
 
                 //Body
                 mailMessage.BodyEncoding = Encoding.UTF8;
@@ -256,6 +277,7 @@ namespace OGF.Service
 
                 mailMessage.Attachments.Add(logoAttachment);
                 */
+
                 if (!string.IsNullOrEmpty(_logo))
                 {
                     LinkedResource inline = new LinkedResource(_logo, MediaTypeNames.Image.Jpeg);
@@ -263,7 +285,15 @@ namespace OGF.Service
                     
                     htmlView.LinkedResources.Add(inline);
                 }
-                
+
+                if (!string.IsNullOrEmpty(_footer))
+                {
+                    LinkedResource inline = new LinkedResource(_footer, MediaTypeNames.Image.Jpeg);
+                    inline.ContentId = "myfooter";
+
+                    htmlView.LinkedResources.Add(inline);
+                }
+
 
                 using (SmtpClient smtpClient = new SmtpClient(_host, _port))
                 {
