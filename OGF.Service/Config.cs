@@ -11,6 +11,7 @@ namespace OGF.Service
         public string DatabaseConnectionstring { get; set; } 
         public string UniversignEmail { get; set; }
         public string UniversignPassword { get; set; }
+        public string UniversignURL { get; set; }
         public string DomainName { get; set; }
         public string DocumenttypeName { get; set; }
         public string UserName { get; set; }

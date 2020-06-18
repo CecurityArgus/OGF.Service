@@ -113,7 +113,7 @@ namespace OGF.Service
                                             if (!Common.UniqueIds.Contains(uniqueId))
                                             {
                                                 UniversignRequests reqs = new UniversignRequests(_config.UniversignEmail, _config.UniversignPassword);
-                                                var transactionInfo =  reqs.GetTransactionInfo(universignId);
+                                                var transactionInfo =  reqs.GetTransactionInfo(_config, universignId);
 
                                                 if (string.Compare(transactionInfo.status, "ready", true) == 0)
                                                 {
