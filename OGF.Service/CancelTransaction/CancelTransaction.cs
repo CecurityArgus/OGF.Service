@@ -44,7 +44,7 @@ namespace OGF.Service
                     logger.Trace("Cancel transaction Universign");
                     ARGUS.Diagnostics.Logger.Log("Cancel transaction Universign");
                     UniversignRequests reqs = new UniversignRequests(_config.UniversignEmail, _config.UniversignPassword);
-                    reqs.CencelTransaction(universignId);
+                    reqs.CencelTransaction(_config, universignId);
                    
                     //Set state to finish in OGF database
                     SetState(connection, uniqueId, Common.CancelTransactionState.Finished);

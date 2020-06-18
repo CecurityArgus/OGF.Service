@@ -1,7 +1,7 @@
 using System.Configuration;
 using System.IO;
 using CookComputing.XmlRpc;
-
+using OGF.Service;
 
 class UniversignRequests {
     private string email;
@@ -12,15 +12,15 @@ class UniversignRequests {
         this.password = password;
     }
 
-    private ISignature init () {
+    private ISignature init (string universignUrl) {
         //Initialize the proxy
         ISignature proxy = (ISignature) XmlRpcProxyGen.Create (typeof (ISignature));
         // https://ws.universign.eu/sign/rpc
         // https://sign.test.cryptolog.com/sign/rpc
 
 
-        proxy.Url = "https://sign.test.cryptolog.com/sign/rpc";
-
+        // proxy.Url = "https://sign.test.cryptolog.com/sign/rpc";
+        proxy.Url = universignUrl;
 
         //set credentials
         proxy.Credentials = new System.Net.NetworkCredential (email, password);
@@ -31,10 +31,10 @@ class UniversignRequests {
         return proxy;
     }
 
-    public void CencelTransaction (string id)
+    public void CencelTransaction (Config config,string id)
     {
 
-        ISignature proxy = init();
+        ISignature proxy = init(config.UniversignURL);
         try
         {
             var transaction = proxy.getTransactionInfo(id);
@@ -49,9 +49,9 @@ class UniversignRequests {
         }
     }
 
-    public TransactionInfo GetTransactionInfo(string id)
+    public TransactionInfo GetTransactionInfo(Config config, string id)
     {
-        ISignature proxy = init();
+        ISignature proxy = init(config.UniversignURL);
         try
         {
             return proxy.getTransactionInfo(id);
