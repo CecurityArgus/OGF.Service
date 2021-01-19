@@ -16,7 +16,9 @@ namespace OGF.Service
         public string DocumenttypeName { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }
-        public string Footer { get; set; }
+        public bool OGF_SendRequests { get; set; }
+        public string OGF_Webservice { get; set; }
+        public string OGF_PassPhrase { get; set; }
         public SMTP SMTP { get; set; }
         public List<TradeMarkConfig> TradeMarkConfigs { get; set; }
     }
@@ -45,6 +47,7 @@ namespace OGF.Service
         public string Trademark { get; set; }
         public List<MailTemplate> MailTemplates { get; set; }
         public string Logo { get; set; }
+        public string Footer { get; set; }
         public string CancellationDocument { get; set; }
     }
 

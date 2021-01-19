@@ -1,5 +1,6 @@
 using System.Configuration;
 using System.IO;
+using System.Net;
 using CookComputing.XmlRpc;
 using OGF.Service;
 
@@ -13,6 +14,8 @@ class UniversignRequests {
     }
 
     private ISignature init (string universignUrl) {
+
+        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
         //Initialize the proxy
         ISignature proxy = (ISignature) XmlRpcProxyGen.Create (typeof (ISignature));
         // https://ws.universign.eu/sign/rpc

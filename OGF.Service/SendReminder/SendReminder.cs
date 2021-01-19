@@ -133,7 +133,7 @@ namespace OGF.Service
                                                         logoFile = tradeConfig.Logo;
 
                                                     SendMail(_config.SMTP, mailTemplateRequest, customerEmailAdress.Split(';').ToList(), null, backofficeEmailAdress.Split(';').ToList(),
-                                                            civility, firstName, lastName, univerSignURL, attachments, logoFile, tradeMark, docNbr, _config.Footer);
+                                                            civility, firstName, lastName, univerSignURL, attachments, logoFile, tradeMark, docNbr, tradeConfig.Footer);
 
                                                     Common.UniqueIds.Add(uniqueId);
                                                 }
