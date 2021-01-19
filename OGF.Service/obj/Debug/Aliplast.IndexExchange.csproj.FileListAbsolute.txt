@@ -1,0 +1,12 @@
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\obj\Debug\ResolveAssemblyReference.cache
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\Aliplast.IndexExchange.exe
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\Aliplast.IndexExchange.pdb
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\ARGUS.EAS.dll
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\ARGUS.FrameWork.dll
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\obj\Debug\Aliplast.IndexExchange.exe
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\obj\Debug\Aliplast.IndexExchange.pdb
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\obj\Debug\Aliplast.IndexExchange.ProjectInstaller.resources
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\obj\Debug\Aliplast.IndexExchange.csproj.GenerateResource.Cache
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\ARGUS.ADMS.dll
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\ARGUS.ADMS.Security.dll
+C:\Workdir\c#\Aliplast.IndexExchange\Aliplast.IndexExchange\bin\Debug\ARGUS.License.dll

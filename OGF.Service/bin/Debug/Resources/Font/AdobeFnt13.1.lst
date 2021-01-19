@@ -1,0 +1,765 @@
+%!Adobe-FontList 1.13.1
+%Locale:0x813
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Bold
+FamilyName:Adobe Arabic
+StyleName:Bold
+FullName:Adobe Arabic Bold
+MenuName:Adobe Arabic
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeArabic-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:228988
+FileModTime:1584375754
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-BoldItalic
+FamilyName:Adobe Arabic
+StyleName:Bold Italic
+FullName:Adobe Arabic Bold Italic
+MenuName:Adobe Arabic
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeArabic-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:252320
+FileModTime:1584375754
+WeightClass:700
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Italic
+FamilyName:Adobe Arabic
+StyleName:Italic
+FullName:Adobe Arabic Italic
+MenuName:Adobe Arabic
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeArabic-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:253152
+FileModTime:1584375754
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+FullName:Adobe Arabic Regular
+MenuName:Adobe Arabic
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeArabic-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:228404
+FileModTime:1584375754
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeFanHeitiStd-Bold
+FamilyName:Adobe Fan Heiti Std
+StyleName:B
+FullName:Adobe Fan Heiti Std B
+MenuName:Adobe Fan Heiti Std B
+StyleBits:2
+FamilyNameNative:Adobe 繁黑體 Std
+StyleNameNative:B
+FullNameNative:Adobe 繁黑體 Std B
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeFanHeitiStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5497908
+FileModTime:1584375754
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeGothicStd-Bold
+FamilyName:Adobe Gothic Std
+StyleName:B
+FullName:Adobe Gothic Std B
+MenuName:Adobe Gothic Std B
+StyleBits:2
+FamilyNameNative:Adobe 고딕 Std
+StyleNameNative:B
+FullNameNative:Adobe 고딕 Std B
+WritingScript:Korean
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeGothicStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2885176
+FileModTime:1584375755
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Bold
+FamilyName:Adobe Hebrew
+StyleName:Bold
+FullName:Adobe Hebrew Bold
+MenuName:Adobe Hebrew
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeHebrew-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:69196
+FileModTime:1584375755
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-BoldItalic
+FamilyName:Adobe Hebrew
+StyleName:Bold Italic
+FullName:Adobe Hebrew Bold Italic
+MenuName:Adobe Hebrew
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeHebrew-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72400
+FileModTime:1584375755
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Italic
+FamilyName:Adobe Hebrew
+StyleName:Italic
+FullName:Adobe Hebrew Italic
+MenuName:Adobe Hebrew
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeHebrew-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:72300
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Regular
+FamilyName:Adobe Hebrew
+StyleName:Regular
+FullName:Adobe Hebrew Regular
+MenuName:Adobe Hebrew
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70528
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeHeitiStd-Regular
+FamilyName:Adobe Heiti Std
+StyleName:R
+FullName:Adobe Heiti Std R
+MenuName:Adobe Heiti Std R
+StyleBits:0
+FamilyNameNative:Adobe 黑体 Std
+StyleNameNative:R
+FullNameNative:Adobe 黑体 Std R
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeHeitiStd-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:12265424
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMingStd-Light
+FamilyName:Adobe Ming Std
+StyleName:L
+FullName:Adobe Ming Std L
+MenuName:Adobe Ming Std L
+StyleBits:0
+FamilyNameNative:Adobe 明體 Std
+StyleNameNative:L
+FullNameNative:Adobe 明體 Std L
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeMingStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:10171656
+FileModTime:1584375755
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMyungjoStd-Medium
+FamilyName:Adobe Myungjo Std
+StyleName:M
+FullName:Adobe Myungjo Std M
+MenuName:Adobe Myungjo Std M
+StyleBits:0
+FamilyNameNative:Adobe 명조 Std
+StyleNameNative:M
+FullNameNative:Adobe 명조 Std M
+WritingScript:Korean
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeMyungjoStd-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:4101108
+FileModTime:1584375755
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobePiStd
+FamilyName:Adobe Pi Std
+StyleName:Regular
+FullName:Adobe Pi Std
+MenuName:Adobe Pi Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobePiStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:89660
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeSongStd-Light
+FamilyName:Adobe Song Std
+StyleName:L
+FullName:Adobe Song Std L
+MenuName:Adobe Song Std L
+StyleBits:0
+FamilyNameNative:Adobe 宋体 Std
+StyleNameNative:L
+FullNameNative:Adobe 宋体 Std L
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeSongStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:15586660
+FileModTime:1584375755
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Bold
+FamilyName:Adobe Thai
+StyleName:Bold
+FullName:Adobe Thai Bold
+MenuName:Adobe Thai
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeThai-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:67160
+FileModTime:1584375755
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-BoldItalic
+FamilyName:Adobe Thai
+StyleName:Bold Italic
+FullName:Adobe Thai Bold Italic
+MenuName:Adobe Thai
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeThai-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70308
+FileModTime:1584375755
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Italic
+FamilyName:Adobe Thai
+StyleName:Italic
+FullName:Adobe Thai Italic
+MenuName:Adobe Thai
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeThai-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70584
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Regular
+FamilyName:Adobe Thai
+StyleName:Regular
+FullName:Adobe Thai Regular
+MenuName:Adobe Thai
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\AdobeThai-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:66864
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Bold
+FamilyName:Courier Std
+StyleName:Bold
+FullName:Courier Std Bold
+MenuName:Courier Std
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\CourierStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35740
+FileModTime:1584375755
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-BoldOblique
+FamilyName:Courier Std
+StyleName:Bold Oblique
+FullName:Courier Std Bold Oblique
+MenuName:Courier Std
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\CourierStd-BoldOblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37084
+FileModTime:1584375755
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Oblique
+FamilyName:Courier Std
+StyleName:Medium Oblique
+FullName:Courier Std Medium Oblique
+MenuName:Courier Std
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\CourierStd-Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37432
+FileModTime:1584375755
+WeightClass:500
+WidthClass:5
+AngleClass:1
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd
+FamilyName:Courier Std
+StyleName:Medium
+FullName:Courier Std Medium
+MenuName:Courier Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\CourierStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:35980
+FileModTime:1584375755
+WeightClass:500
+WidthClass:5
+AngleClass:0
+DesignSize:120
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozGoPr6N-Medium
+FamilyName:Kozuka Gothic Pr6N
+StyleName:M
+FullName:Kozuka Gothic Pr6N M
+MenuName:Kozuka Gothic Pr6N M
+StyleBits:0
+FamilyNameNative:小塚ゴシック Pr6N
+StyleNameNative:M
+FullNameNative:小塚ゴシック Pr6N M
+WritingScript:Japanese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\KozGoPr6N-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5499164
+FileModTime:1584375755
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozMinPr6N-Regular
+FamilyName:Kozuka Mincho Pr6N
+StyleName:R
+FullName:Kozuka Mincho Pr6N R
+MenuName:Kozuka Mincho Pr6N R
+StyleBits:0
+FamilyNameNative:小塚明朝 Pr6N
+StyleNameNative:R
+FullNameNative:小塚明朝 Pr6N R
+WritingScript:Japanese
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\KozMinPr6N-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:8134748
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:231312
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+FullName:Myriad Pro
+MenuName:Myriad Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\MyriadPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:94360
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:AFM
+FontName:Symbol
+NumMMAxes:0
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\sy______.afm
+FileLength:9932
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\sy______.inf
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Symbol
+FamilyName:Symbol
+StyleName:Regular
+FullName:Symbol
+MenuName:Symbol
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\sy______.pfb
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34705
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Symbol
+NumMMAxes:0
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\sy______.pfm
+FileLength:672
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSansMM
+NumMMAxes:2
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zx______.mmm
+FileLength:7248
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSansMM
+FamilyName:Adobe Sans MM
+StyleName:Regular
+FullName:Adobe Sans MM
+MenuName:AdobeSanMM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zx______.pfb
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:75573
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSansMM
+NumMMAxes:0
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zx______.pfm
+FileLength:683
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSerifMM
+NumMMAxes:2
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zy______.mmm
+FileLength:7248
+FileModTime:1584375755
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSerifMM
+FamilyName:Adobe Serif MM
+StyleName:Regular
+FullName:Adobe Serif MM
+MenuName:AdobeSerMM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zy______.pfb
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:96418
+FileModTime:1584375755
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSerifMM
+NumMMAxes:0
+OutlineFileName:C:\Users\FrankDescheerder\source\repos\OGF.API\OGF.API\bin\Resources\Font\zy______.pfm
+FileLength:684
+FileModTime:1584375755
+%EndFont
+

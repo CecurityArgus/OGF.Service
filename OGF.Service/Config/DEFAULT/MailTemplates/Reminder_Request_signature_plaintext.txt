@@ -1,0 +1,11 @@
+﻿Bonjour {{Civility}} {{FirstName}} {{LastName}},
+
+
+Le document {{DocumentName}} vient de vous être adressé et nécessite votre signature. 
+
+Pour signer électroniquement votre document, rendez-vous ici: {{UniversignRequestUrl}}
+(Service opéré par Universign).
+
+Nous vous remercions de votre confiance et vous souhaitons une excellente journée.
+
+Votre conseiller {{Trademark}}
